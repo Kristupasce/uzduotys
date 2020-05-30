@@ -36,3 +36,5 @@ Tekstiniame faile U1rez.txt rezultatus įrašykite tokia tvarka:
 * Parašykite taškų apskaičiavimo viename skyriuje procedūrą.
 * Parašykite funkciją, nustatančią geriausią logotipą visoje įmonėje.
 * Programoje nenaudokite sakinių, skirtų darbui su ekranu.
+
+![](Screenshot_6.png)<br/>
