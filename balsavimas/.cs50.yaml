@@ -1,0 +1,15 @@
+# šis file yra skirtas deklaruoti, kas bus sistemoje.
+
+lab50: # deklaruoja, kas bus reikalinga lab50 aplinkoje
+  files:
+    - !exclude "*" #šitas visada reikalingas.
+    - !include "balsavimas.cpp" #uzduotis.cpp reikia pakeisti į jūsų uždavinio pavadinimą.cpp.
+    - !include "Duomenys.txt" # duomenų failo pavadinimas.
+    - !include "Rezultatai.txt" # rezultatų failo pavadinimas.
+    
+check50: # deklaruoja, kas bus reikalinga check50 sistemoje
+  files:
+    - !exclude "*" # šitas visada reikalingas.
+    - !require "balsavimas.cpp" #uzduotis.cpp reikia pakeisti į jūsų uždavinio pavadinimą.cpp.
+    - !require "Duomenys.txt" # duomenų failo pavadinimas.
+    - !require "Rezultatai.txt" # rezultatų failo pavadinimas.
